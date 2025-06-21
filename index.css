@@ -5,10 +5,11 @@ body {
 
 .nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   background-color: #1f2937;
   color: #f9faf8;
+  padding: 24px 72px 24px 72px;
 }
 
 .logo {
@@ -26,7 +27,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 60px;
+  padding: 24px 72px 24px 72px;
   background: #1f2937;
 }
 
