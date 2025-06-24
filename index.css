@@ -64,3 +64,33 @@ button {
   width: 550px;
   height: 300px;
 }
+
+.main-container #section-title {
+  padding: 24px 72px 24px 72px;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  text-align: center;
+}
+
+.img-container {
+  padding: 24px 72px 24px 72px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.img-item {
+  width: 250px;
+}
+
+.img-item img {
+  width: 100%;
+  height: auto;
+}
+
+.img-item p {
+  text-align: center;
+  font-size: 18px;
+}
