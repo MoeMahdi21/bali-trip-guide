@@ -94,3 +94,26 @@ button {
   text-align: center;
   font-size: 18px;
 }
+
+.qoute-container {
+  padding: 24px 72px 24px 72px;
+  background: #e5e7eb;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+.qoute-container #user-qoute {
+  padding: 24px 72px 24px 72px;
+  width: 800px;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1f2937;
+}
+
+.qoute-container p {
+  text-align: end;
+  margin: 0;
+  font-weight: bold;
+}
