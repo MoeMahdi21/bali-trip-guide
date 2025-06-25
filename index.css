@@ -44,7 +44,7 @@ body {
   color: #f9faf8;
 }
 
-button {
+.button {
   width: fit-content;
   padding: 10px 20px 10px 20px;
   border: 0;
@@ -116,4 +116,39 @@ button {
   text-align: end;
   margin: 0;
   font-weight: bold;
+}
+
+.signup-container {
+  padding: 50px 100px 50px 100px;
+  margin: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #3882f6;
+}
+
+.signup-left-section {
+  width: 70%;
+  color: #f9faf8;
+}
+
+.signup-right-section {
+  display: flex;
+  justify-content: center;
+  height: fit-content;
+}
+
+#signup-text-title {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+#signup-text {
+  margin-top: 5px;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.signup-button {
+  border: 1px solid #f9faf8;
 }
