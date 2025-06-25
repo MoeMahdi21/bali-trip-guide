@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
@@ -21,6 +25,11 @@ body {
   display: flex;
   justify-content: space-around;
   width: 50%;
+}
+
+a {
+  color: inherit; /* Use the color from the parent element */
+  text-decoration: none; /* Remove underline */
 }
 
 .hero {
